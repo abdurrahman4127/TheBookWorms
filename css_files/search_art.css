@@ -1,0 +1,176 @@
+.head-my {
+    font-size: 30px;
+    font-family: "Yu Gothic UI Light";
+    color: rgb(45, 112, 213);
+    position: absolute;
+    left: 68px;
+    top: 180px;
+    z-index: 19;
+}
+
+
+.hr {
+    position: relative;
+    border: 1px solid #2d70d5;
+    top: 180px;
+    width: 1130px;
+    left: 0px;
+}
+
+select {
+    border-radius: 8px;
+    box-shadow: 1px 1.732px 5px 0px rgb(55, 52, 52);
+    border: 1px solid steelblue;
+    background-color: white;
+    font-family: "Yu Gothic UI Light";
+    position: relative;
+    left: 200px;
+    top: 150px;
+    width: 250px;
+    height: 50px;
+}
+
+input {
+    border-radius: 8px;
+    box-shadow: 1px 1.732px 5px 0px rgb(55, 52, 52);
+    border: 1px solid rgb(33, 33, 33);
+    font-weight: bold;
+    background-color: #234;
+    font-family: "Yu Gothic UI Light";
+    color: white;
+    position: relative;
+    left: 200px;
+    top: 150px;
+    width: 150px;
+    height: 50px;
+}
+
+.unlist {
+
+    background-color: #2d70d5;
+    box-shadow: 1px 1.732px 2px 0px rgb(55, 52, 52);
+    position: absolute;
+    left: 420px;
+    top: 70px;
+    width: 386px;
+    height: 38px;
+    z-index: 2;
+
+}
+
+
+.list2 {
+    float: left;
+    overflow: auto;
+    border-right: 1.5px solid #f2f2f2;
+}
+
+.list2:last-child {
+    border-right: none;
+}
+
+.list2 .link2 {
+    display: block;
+    color: #234;
+    font-size: 17px;
+    font-family: "Yu Gothic UI Light";
+    font-weight: bold;
+    padding: 8px 10px 8px 10px;
+    text-decoration: none;
+
+}
+
+.list2 .link2:hover {
+    background-color: #f2f2f2;
+}
+
+.photo {
+    position: relative;
+    width: 300px;
+    height: 250px;
+}
+
+.desc-title {
+    color: #2d70d5;
+    font-variant: small-caps;
+    font-family: "Yu Gothic UI Light";
+    font-size: 29px;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    text-decoration: none;
+}
+
+.desc-content {
+    position: relative;
+    font-size: 18px;
+    font-family: "Yu Gothic UI Light";
+    top: 0px;
+
+}
+
+.desc-content2 {
+    position: relative;
+    font-size: 18px;
+    font-family: "Yu Gothic UI Light";
+    top: -20px;
+}
+
+.pic-table {
+    border: 8px solid white;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.2);
+    background-color: #fafafa;
+    border-collapse: collapse;
+    float: left;
+    overflow: auto;
+    margin: 0px 50px 50px 0px;
+}
+
+.space {
+    margin-top: 100px;
+    position: relative;
+    left: 130px;
+
+}
+
+.back {
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid none;
+    background-color: #43b353;
+    padding: 7px;
+    color: #234;
+    font-size: 20px;
+    font-family: "Yu Gothic UI Light";
+    position: absolute;
+    top: 80px;
+    left: 70px;
+}
+
+select {
+    border-radius: 5px;
+    box-shadow: 1px 1.732px 5px 0px rgb(55, 52, 52);
+    border: 1px solid steelblue;
+    background-color: white;
+    font-family: "Yu Gothic UI Light";
+    position: relative;
+    left: 200px;
+    top: 80px;
+    width: 250px;
+    height: 40px;
+}
+
+input {
+    border-radius: 5px;
+    box-shadow: 1px 1.732px 5px 0px rgb(55, 52, 52);
+    border: 1px solid rgb(33, 33, 33);
+    font-weight: bold;
+    background-color: #234;
+    font-family: "Yu Gothic UI Light";
+    color: white;
+    position: relative;
+    left: 200px;
+    top: 80px;
+    width: 150px;
+    height: 40px;
+}

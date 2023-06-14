@@ -1,0 +1,145 @@
+#content {
+    margin: 70px 0px 0px 50px;
+}
+
+.head-order {
+    font-size: 30px;
+    font-family: "Yu Gothic UI Light";
+    color: rgb(45, 112, 213);
+    position: absolute;
+    left: 70px;
+    top: 100;
+
+    z-index: 19;
+}
+
+.head-summary {
+    font-size: 30px;
+    font-family: "Yu Gothic UI Light";
+    color: rgb(00, 00, 00);
+    position: absolute;
+    left: 155px;
+    top: 100;
+
+    z-index: 19;
+}
+
+.hr {
+    position: relative;
+    border: 1px solid #2d70d5;
+    top: -140px;
+    width: 1090px;
+    left: -44px;
+}
+
+.fsize-special {
+    font-family: "Yu Gothic UI Light";
+    position: absolute;
+    top: 160px;
+    left: 110px;
+    font-size: 20px;
+}
+
+.hr2 {
+    position: relative;
+    border: 1px solid;
+    top: 20px;
+    width: 1090px;
+    left: -41px;
+}
+
+.image {
+    position: absolute;
+    box-shadow: 1px 1px 5px 0px rgb(0, 0, 1);
+    top: 370px;
+    left: 100px;
+    height: 270px;
+    width: 228px;
+}
+
+.item-title {
+    font-size: 40px;
+    font-family: "Yu Gothic UI Light";
+    font-weight: bold;
+    color: #2d70d5;
+    position: relative;
+    left: 330px;
+    top: 00px;
+    z-index: 3;
+}
+
+.delivery {
+
+    font-size: 16px;
+    font-family: "Yu Gothic UI Light";
+    color: #333333;
+    position: absolute;
+    left: 380px;
+    top: 450px;
+    z-index: 3;
+}
+
+.qty {
+    font-size: 16px;
+    font-family: "Yu Gothic UI Light";
+    color: #333333;
+    position: absolute;
+    left: 380px;
+    top: 490px;
+    z-index: 3;
+}
+
+.price {
+    font-size: 16px;
+    font-family: "Yu Gothic UI Light";
+    color: #333333;
+    position: absolute;
+    left: 1090px;
+    top: 490px;
+    z-index: 3;
+}
+
+.special {
+    font-size: 16px;
+    font-family: "Yu Gothic UI Light";
+    color: #333333;
+    position: relative;
+    left: 980px;
+    top: 90px;
+    z-index: 3;
+}
+
+.special2 {
+    font-size: 16px;
+    font-family: "Yu Gothic UI Light";
+    color: #333333;
+    position: relative;
+    left: 985px;
+    top: 90px;
+    z-index: 3;
+}
+
+.total {
+    font-size: 16px;
+    font-family: "Yu Gothic UI Light";
+    font-weight: bold;
+    color: #333333;
+    position: absolute;
+    left: 950px;
+    top: 680px;
+    z-index: 3;
+}
+
+.inputbar {
+    font-family: "Yu Gothic UI Light";
+    font-weight: bold;
+    border: 1px solid;
+    color: white;
+    font-size: 25px;
+    background-color: #43b353;
+    position: absolute;
+    top: 735px;
+    left: 965px;
+    width: 200px;
+    height: 50px;
+}

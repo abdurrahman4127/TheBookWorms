@@ -1,0 +1,124 @@
+body {
+    overflow-x: hidden;
+}
+
+.photo1 {
+    position: relative;
+    left: 80px;
+    top: 45px;
+    width: 207px;
+    height: 270px;
+    box-shadow: 1px 1px 5px 0px rgb(0, 0, 1);
+}
+
+.backgd {
+    border-radius: 8px;
+    border: 1px solid none;
+    background-color: white;
+    padding: 0px 10px 10px 0px;
+    margin-left: 120px;
+    position: relative;
+    top: 175px;
+    width: 1010px;
+    height: 350px;
+}
+
+.info-title {
+    color: #2d70d5;
+    font-variant: small-caps;
+    font-family: "Yu Gothic UI Light";
+    font-size: 25px;
+    position: relative;
+    top: -205px;
+    left: 420px;
+    text-decoration: none;
+
+}
+
+.info-content {
+    position: relative;
+    font-size: 25px;
+    font-family: "Yu Gothic UI Light";
+    top: -115px;
+    left: 785px;
+}
+
+.headspace {
+    position: absolute;
+    font-variant: small-caps;
+    color: rgb(0, 0, 3);
+    font-family: "Yu Gothic UI Light";
+    font-size: 30px;
+    left: 80px;
+    top: 110px;
+
+}
+
+.headspace2 {
+    position: absolute;
+    font-variant: small-caps;
+    color: rgb(0, 0, 3);
+    font-family: "Yu Gothic UI Light";
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 100px;
+
+}
+
+.hr {
+    position: relative;
+    border: 1px solid #2d70d5;
+    top: -15px;
+    width: 1100px;
+    left: 0px;
+}
+
+.photo {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    margin: 0 0px 0 0px;
+    border-radius: 7px;
+}
+
+.desc-title {
+    color: #2d70d5;
+    font-variant: small-caps;
+    font-family: "Yu Gothic UI Light";
+    font-size: 29px;
+    position: inherit;
+    top: 0px;
+    left: 5px;
+    text-decoration: none;
+}
+
+.desc-content {
+    position: relative;
+    font-size: 18px;
+    font-family: "Yu Gothic UI Light";
+    top: 0px;
+
+}
+
+.desc-content2 {
+    position: relative;
+    font-size: 18px;
+    font-family: "Yu Gothic UI Light";
+
+    top: -20px;
+}
+
+.pic-table {
+    border: 3px solid white;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.2);
+    background-color: #fafafa;
+    border-collapse: collapse;
+    float: left;
+    margin: 0px 50px 50px 0px;
+}
+
+.space {
+    margin-top: 200px;
+    position: relative;
+    left: 45px;
+}

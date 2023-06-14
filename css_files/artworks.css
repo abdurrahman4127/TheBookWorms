@@ -1,0 +1,93 @@
+select {
+    border-radius: 5px;
+    box-shadow: 1px 1.732px 5px 0px rgb(55, 52, 52);
+    border: 1px solid steelblue;
+    background-color: rgba(0, 0, 0, 0.298);
+    font-family: "Yu Gothic UI Light";
+    position: relative;
+    left: 208px;
+    top: 87px;
+    width: 232px;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px;
+}
+
+input {
+    border-radius: 5px;
+    box-shadow: 1px 1.732px 5px 0px rgb(55, 52, 52);
+    border: 1px solid rgb(33, 33, 33);
+    font-weight: bold;
+    background-color: #ca3232;
+    font-family: "Yu Gothic UI Light";
+    color: white;
+    position: relative;
+    left: 200px;
+    top: 84px;
+    width: 150px;
+    height: 40px;
+}
+
+.photo {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.desc-title {
+    color: #ff0225;
+    font-family: "Yu Gothic UI Light";
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.desc-content {
+    position: relative;
+    font-size: 20px;
+    font-weight:bold;   
+    font-family: "Yu Gothic UI Light";
+    top: 0px;
+    text-align: left;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+/* .desc-content2 {
+    position: relative;
+    font-size: 18px;
+    font-family: "Yu Gothic UI Light";
+    top: -20px;
+} */
+
+.pic-table {
+    box-shadow: 36px 22px 33px 27px rgba(0, 0, 0, 0.2);
+    background-color: #fafafaac;
+    float: left;
+    overflow: auto;
+    margin: -14px 68px 103px -4px;
+    border-radius: 16px;
+}
+
+.pic-table td {
+    text-align: center;
+}
+
+.space {
+    margin-top: 120px;
+    position: relative;
+    left: 130px;
+}
+
+.art-details .price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

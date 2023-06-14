@@ -1,0 +1,192 @@
+body {
+    overflow-x: hidden;
+
+}
+.head-my {
+    font-size: 30px;
+    font-family: "Yu Gothic UI Light";
+    color: rgb(45, 112, 213);
+    position: absolute;
+    left: 68px;
+    top: 100;
+    z-index: 19;
+}
+
+.head-orders {
+    font-size: 30px;
+    font-family: "Yu Gothic UI Light";
+    color: rgb(00, 00, 00);
+    position: absolute;
+    left: 116px;
+    top: 100;
+
+    z-index: 19;
+}
+
+.hr {
+    position: relative;
+    border: 1px solid #2d70d5;
+    top: 110px;
+    width: 1130px;
+    left: 0px;
+}
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    position: relative;
+    top: -20px;
+    left: 60px;
+    width: 90%;
+    height: 70px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 7px;
+}
+
+button.accordion.active,
+button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin: -40px 0px 0px 0px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    position: relative;
+    top: -21px;
+    left: 60px;
+    width: 1215px;
+    height: 285px;
+    background-color: #3c3fa13d;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 7px;
+}
+
+.align {
+    position: relative;
+    top: 150px;
+}
+
+.h1 {
+    font-size: 13px;
+    font-family: "Yu Gothic UI Light";
+    position: relative;
+    display: block;
+    float: left;
+    overflow: auto;
+    margin: 0px 320px 0px 0px;
+}
+
+.h2 {
+    font-size: 13px;
+    font-family: "Yu Gothic UI Light";
+    position: relative;
+    display: block;
+    float: left;
+    overflow: auto;
+    margin: 0px 255px 0px 0px;
+}
+
+.h3 {
+    font-size: 13px;
+    font-family: "Yu Gothic UI Light";
+    position: relative;
+    top: -18px;
+    display: block;
+    float: left;
+    overflow: auto;
+    margin: 0px 0px 0px 700px;
+}
+
+.h4 {
+    font-size: 13px;
+    font-family: "Yu Gothic UI Light";
+    position: relative;
+    display: block;
+    float: left;
+    overflow: auto;
+    margin: -40px 0px 0px 1010px;
+}
+
+.picture {
+    box-shadow: 1px 1.5px 8px 0px rgb(0, 0, 5);
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: 228px;
+}
+
+.item {
+    position: relative;
+    top: -270px;
+    left: 270px;
+    font-family: "Yu Gothic UI Light";
+    font-size: 45px;
+    color: #2d70d5;
+}
+
+.qty {
+    position: relative;
+    top: -285px;
+    left: 270px;
+    font-family: "Yu Gothic UI Light";
+    font-size: 14px;
+    color: grey;
+}
+
+.delivery {
+    position: relative;
+    top: -310px;
+    right: -830px;
+    font-family: "Yu Gothic UI Light";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cancel {
+    position: relative;
+    top: -290px;
+    right: -1000px;
+    font-family: "Yu Gothic UI Light";
+    font-size: 15px;
+    text-decoration: none;
+    color: #2d70d5;
+    padding: 10px;
+}
+
+.cancel:hover {
+    background-color: #ccc;
+}
+
+.seemore {
+    position: relative;
+    top: -270px;
+    right: -1000px;
+    font-family: "Yu Gothic UI Light";
+    font-size: 16px;
+    text-decoration: none;
+    color: #2d70d5;
+    padding: 10px;
+}
+
+.seemore:hover {
+    background-color: #ccc;
+}

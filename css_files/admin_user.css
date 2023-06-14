@@ -1,0 +1,76 @@
+body {
+    overflow-x: hidden;
+}
+
+.bodymargin {
+    margin: 80px 0px 10px 40px;
+}
+
+.head-table {
+    font-size: 40px;
+    font-family: "Yu Gothic UI Light";
+    color: rgb(45, 112, 213);
+    position: absolute;
+    top: 80px;
+    left: 45px;
+}
+
+.head-user {
+    font-variant: small-caps;
+    font-size: 50px;
+    font-family: "Yu Gothic UI Light";
+    color: rgb(00, 00, 00);
+    position: absolute;
+    top: 63px;
+    left: 170px;
+    z-index: 19;
+}
+
+.hr {
+    position: absolute;
+    border: 1px solid #2d70d5;
+    top: 145px;
+    margin-left: -26px;
+    width: 1150px;
+    left: 73px;
+}
+
+.deletebar {
+    border-radius: 8px;
+    border: 1px solid none;
+    background-color: #fff;
+    position: absolute;
+    top: 6px;
+    width: 150px;
+    height: 30px;
+}
+
+.delbutton {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5px 8px 5px 8px;
+    font-family: "Yu Gothic UI Light";
+    color: white;
+    font-size: 13px;
+    background-color: #FF0017;
+}
+
+.rowdesign:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.table-head {
+    font-weight: bold;
+}
+
+.table-head, .table-data {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid none;
+    font-family: "Yu Gothic UI Light";
+}
+
+.table-head:hover {
+    background-color: #f5f5f5;
+}

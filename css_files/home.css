@@ -1,0 +1,44 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("pictures/gifs/book5.gif");
+    background-size: cover;
+}
+
+.typing_content {
+    font-family: monospace;
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+    width: 630px;
+    text-align: center;
+    margin-top: -325px;
+    z-index: 2;
+}
+
+
+.containerX {
+    position: relative;
+    font-family: monospace;
+    left: 700px;
+    top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    height: 260px;
+    width: 632px;
+    text-align: center;
+    z-index: 2;
+    border-radius: 7px;
+    width: 560px;
+    height: 500px;
+}
+
+
+.imageX img{
+    position: relative;
+    top: 20px;
+    border-radius: 7px;
+}

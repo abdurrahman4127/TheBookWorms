@@ -1,0 +1,166 @@
+/* to hide horizontal & vertical scroll bar */
+body.body_class{
+    overflow: hidden; 
+}
+
+.userbar::placeholder, .passwdbar::placeholder {
+    font-size: 20px;
+}
+
+
+.sign, .in {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Yu Gothic UI Light";
+    color: rgb(45, 112, 213);
+    position: absolute;
+    left: 568px;
+    top: 80px;
+    width: 215px;
+    height: 35px;
+}
+
+.in {
+    color: rgb(64, 35, 35);
+    left: 655px;
+}
+
+
+.userbar, .passwdbar {
+    border-radius: 5px;
+    box-shadow: 1px 1.732px 5px 0px rgb(55, 52, 52);
+    border: 1.5px solid rgb(33, 33, 33);
+    background-color: white;
+    position: absolute;
+    left: 70px;
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.userbar {
+    top: 1px;
+}
+
+.passwdbar {
+    top: -3px;
+}
+
+
+/* here */
+.user, .name {
+    font-size: 20px;
+    font-family: "Yu Gothic UI Light";
+    color: rgb(45, 112, 213);
+    position: absolute;
+    left: 437px;
+    top: 180px;
+    width: 215px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.name {
+    color: #b32e2e;
+    left: 475px;
+}
+/* here */
+
+
+.pass, .word {
+    font-size: 20px;
+    font-family: "Yu Gothic UI Light";
+    color: rgb(45, 112, 213);
+    position: absolute;
+    left: 437px;
+    top: 228px;
+    width: 215px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.word {
+    color: #b32e2e;
+    left: 475px;
+}
+
+.loginbar {
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 1px 1.732px 5px 0px rgb(55, 52, 52);
+    background-color: #2d70d5;
+    font-family: "Yu Gothic UI Light";
+    color: #f2f2f2;
+    border: 1px;
+    font-weight: bold;
+    font-size: 17px;
+    position: absolute;
+    left: 435px;
+    top: 330px;
+    width: 375px;
+    height: 35px;
+}
+
+.clickHere {
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: "Yu Gothic UI Light";
+    font-weight: bold;
+    text-align: center;
+    color: rgb(208, 40, 40);
+    position: absolute;
+    left: 600px;
+    top: 340px;
+    width: 215px;
+    height: 35px;
+}
+
+#font {
+    font-size: 16px;
+    font-family: "Yu Gothic UI Light";
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: -20px;
+    top: 520px;
+}
+
+.dont {
+    font-size: 17px;
+    font-family: "Yu Gothic UI Light";
+    color: #f2f2f2;
+    position: relative;
+    left: 470px;
+    top: 170px;
+}
+
+.login-background {
+    /* background: url(../pictures/wallpaperflare.com_wallpaper.jpg) no-repeat fixed; */
+    background: url(../pictures/gifs/book.gif) no-repeat fixed;
+    /* background-image: url("../pictures/gifs/book1.gif"); */
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.topmargin {
+    position: absolute;
+    margin-top: 50px;
+    /* margin-left: 65px; */
+    margin-left: 25px;
+    
+}
+
+
+.typing-effect {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px; 
+    font-family: 'Courier New', Courier, monospace
+}
+  
