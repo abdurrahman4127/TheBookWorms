@@ -55,25 +55,25 @@
     <li id="li">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <li id="li"> <br>
       <div class="dpdown2">
-        <span>ARTWORKS</span>
+        <span>BOOKS</span>
         <div class="dpdown-content2">
-          <a href="artworks.php">Available Artworks</a>
-          <a href="artworks(sold).php">Sold Artworks</a>
+          <a href="artworks.php">Available Books</a>
+          <a href="artworks(sold).php">Sold Books</a>
         </div>
       </div>
     </li>
     </li>
 
     <li id="li">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <li id="li"><a id="a2" href="artist.php">ARTISTS </a></li>
+    <li id="li"><a id="a2" href="artist.php">AUTHORS</a></li>
     </li>
 
     <li id="li"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <li id="li"><br>
       <div class="dpdown">
-        <span>ART GUIDE</span>
+        <span>SITE GUIDE</span>
         <div class="dpdown-content">
-          <a href="artists_guide.php">Artists' Guide</a>
+          <a href="artists_guide.php">Writers' Guide</a>
           <a href="customers_guide.php">Customers' Guide</a>
         </div>
       </div>
